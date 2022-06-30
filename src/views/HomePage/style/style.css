@@ -1,0 +1,185 @@
+.titlelanding {
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 30px;
+}
+.textlanding {
+  text-align: center;
+  font-family: "Segoe UI";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #3f3d3d;
+  opacity: 0.9;
+}
+
+/* render responsive */
+.grid{
+  margin: 110px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  grid-row-gap: 80px;
+  justify-content: center;
+}
+.card-fitur-blue{
+  background: #e7f6fe;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 170px;
+  height: 180px;
+}
+.card-fitur-yellow{
+  background: linear-gradient(360deg, #ffd500 0%, #fff6c8 99.15%);
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 170px;
+  height: 200px;
+}
+.fitur-icon {
+  position: relative;
+  width: 70%;
+  top: -50px;
+}
+.text-fitur h3{
+  position: relative;
+  top: -40px;
+  vertical-align: middle;
+}
+.lihat-lebih {
+  width: 170px;
+  height: 30px;
+  background: white;
+  color: #51aae1;
+  border: 2px solid #51aae1;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnPreview{
+  position: relative;
+  top: -50px;
+  background: rgb(17, 17, 17);
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 80%;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media (max-width: 900px){
+  .grid{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 800px){
+  .grid{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 730px){
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px){
+  .grid{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid .card-fitur-blue{
+    text-align: center;
+  }
+}
+
+.titleLanding{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #020202;
+}
+.textLanding{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #3F3D3D;
+    opacity: 0.9
+}
+.lineYellow{
+    border: 2px solid #ffd500;
+    width: 300px;
+}
+.conVideoScroll {
+    display: grid;
+    grid-template-columns:repeat(3, 400px);
+    justify-content: center;
+    padding: 4px;
+    column-gap: 6px;
+  }
+
+.cards-vid {
+  margin: 10px;
+  background: #fff9d9;
+  border-radius: 4px;
+  position: relative;
+  width: 380px;
+  height: 390px;
+}
+.vid-thumb {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  border-radius: 5px;
+  justify-content: center;
+}
+.views-vid{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-family: 'Segoe UI';
+    word-spacing: 2px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.6;
+}
+.titleVid{
+    position: relative;
+    width: 320px;
+    left: 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #231F20;
+}
+.btn-vid{
+    position: relative;
+    left: 20px;
+    width: 340px;
+    height: 40px;
+    font-family: 'Segoe UI';
+    font-size: 17px;
+    font-weight: 500;
+    background: #000000;
+    color: white;
+    border-radius: 8px;
+}

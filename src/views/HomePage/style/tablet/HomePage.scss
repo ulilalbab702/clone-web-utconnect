@@ -1,0 +1,223 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .containerHomeImg {
+    padding-top: 7vw;
+  }
+  .boxImage {
+    display: flex;
+    flex-direction: row;
+    height: 60vw;
+  }
+  .imgFade {
+    position: absolute;
+    top: 7.3vw;
+    left: 16.4vw;
+    z-index: 1;
+    transform: translateX(95%) translateY(-2px);
+    height: 60vw;
+  }
+  .imgHome {
+    transform: translateX(30%);
+  }
+  .boxTextHomeImg {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 24vw;
+    left: 4vw;
+    z-index: 4;
+  }
+  .textContentImageUT {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 26px;
+    letter-spacing: 0.02em;
+    color: #020202;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .mainImage1 {
+    height: 400px;
+    width: 100%;
+    transform: scale(1.4, 1.09) translateY(-8px);
+  }
+  .mainImage2 {
+    height: 400px;
+    width: 100%;
+  }
+  .mainImage3 {
+    height: 400px;
+    width: 100%;
+    transform: scale(1.13, 1.07) translateX(-26px) translateY(-13px);
+  }
+  .boxContentImage {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 40px;
+    padding-top: 16px;
+  }
+  .boxContentImage1 {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 22px;
+    padding-top: 52px;
+  }
+  .textContentImage {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 26px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    color: #ffd400;
+  }
+  .textContentImageDesc {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #020202;
+    opacity: 0.9;
+    width: 310px;
+    margin-bottom: 18px;
+  }
+  .buyPartsButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+  }
+  .containerHome {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+  }
+  .textHomeAbout {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-top: 24px;
+  }
+  .imageHomeAbout {
+    width: 90%;
+    height: 80%;
+    margin-top: -22px;
+  }
+  .textHomeFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .imageFeaturesLeft {
+    width: 70%;
+    height: 70%;
+  }
+  .imageFeaturesRight {
+    width: 70%;
+    height: 70%;
+  }
+  .contentHomeFeatures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+  }
+  .contentHomeFeaturesLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+  }
+  .textTitleContentFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center !important;
+    margin-top: 16px;
+    margin-bottom: 14px;
+    letter-spacing: 0.03em;
+    color: #0055a0;
+  }
+  .textDescContentFeatures {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify !important;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.6;
+    box-sizing: border-box;
+  }
+  .checkFeaturesButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 40px;
+    background: #ffd500;
+    border-radius: 6px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+  }
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    margin-bottom: 150px;
+    background-image: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+  }
+  .textHomeFooter {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    padding-top: 22px;
+  }
+  .iconHomeFooter {
+    margin-top: 25px;
+  }
+  .iconDownloadPS {
+    width: 190px;
+    height: 60px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+  }
+  .iconDownloadAS {
+    width: 190px;
+    height: 60px;
+    margin-left: 15px;
+    margin-bottom: -2px;
+  }
+}

@@ -1,0 +1,759 @@
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.iconModal {
+  width: 35%;
+  align-self: center;
+}
+.containerHomeImg {
+  padding-top: 6vw;
+}
+.rowHomeImg {
+  display: flex;
+  justify-content: flex-end;
+}
+.imgWhite {
+  background-color: #ffffff;
+  width: 100%;
+}
+.boxImage {
+  display: flex;
+  flex-direction: row;
+}
+.imgFade {
+  position: absolute;
+  top: 5.8vw;
+  transform: translateY(-1px);
+}
+.imgHome {
+  transform: translateX(1px);
+  z-index: -1;
+}
+.boxTextHomeImg {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 37%;
+  left: 9vw;
+}
+.conDotsLanding {
+  position: relative;
+  margin-top: 1rem;
+  padding-left: 45%;
+}
+.dotsLanding {
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.5;
+  width: 25px;
+  margin-right: 6px;
+  height: 6px;
+  border: none;
+  border-radius: 6px;
+}
+.dotsLanding.active {
+  background-color: #ffd500;
+}
+.owl-carousel .owl-item .imgSliderLanding {
+  width: 100%;
+  height: auto;
+  transform: scale(0.8);
+}
+.owl-carousel .owl-item.active .imgSliderLanding {
+  transform: scale(1) !important;
+}
+.owl-nav-landing {
+  display: none;
+}
+.owl-carousel:hover .owl-nav-landing {
+  display: block;
+}
+.viewAllLanding {
+  font-family: "SFUIDisplay-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  position: relative;
+  color: #ffffff;
+  background-color: #0000005e;
+  padding: 6px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: -1.2rem;
+  margin-left: auto;
+  z-index: 5;
+}
+.titleLanding {
+  font-family: "SFUIText-Bold";
+  font-weight: bold;
+  font-size: 3vw;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #020202;
+  margin-top: 4rem;
+}
+.textLanding {
+  font-family: "SFProText-Regular";
+  font-size: 1.5vw;
+  line-height: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0.03em;
+  color: #020202;
+  opacity: 0.8;
+  width: 60%;
+}
+.lineYellow {
+  width: 20%;
+  height: 0.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffd500;
+}
+.con-fitur-list {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px 3%;
+  margin: 0 6rem;
+  margin-top: 2rem;
+}
+.see-more-fitur {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #4da1ff;
+  padding: 10px 17px;
+  border-radius: 8px;
+  border: 2.5px solid #4da1ff;
+  margin: 0 auto;
+  display: flex;
+  cursor: pointer;
+}
+.cardPart {
+  width: 26vw;
+  height: 18.5vw;
+  padding: 1vw;
+  background-size: cover !important;
+  filter: opacity(90%);
+  margin-bottom: 30px;
+}
+.cardPart:hover .descBtn {
+  display: flex;
+}
+.cardPart:hover .conColor {
+  opacity: 0.8;
+}
+.conColor {
+  background-color: #000000;
+  opacity: 0.6;
+  width: 26vw;
+  height: 18.5vw;
+  position: absolute;
+  margin-left: -1vw;
+  margin-top: -17.5vw;
+  z-index: -1;
+  transition: all 150ms ease;
+}
+.borderPart1 {
+  height: 100%;
+  width: 33%;
+  border: 0.7vw solid #ffd500;
+  border-right: none;
+}
+.borderPart2 {
+  height: 100%;
+  width: 33%;
+  border-top: 0.7vw solid #ffd500;
+}
+.borderPart3 {
+  height: 100%;
+  width: 33%;
+  border: 0.7vw solid #ffd500;
+  border-left: none;
+}
+.decsPart {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin-left: -0.8vw;
+  margin-top: -18vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2vw;
+  padding-top: 3vw;
+}
+.decsPart h5 {
+  font-family: "SFUIDisplay-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.7vw;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.decsPart h6 {
+  font-family: "SFUIDisplay-Regular";
+  font-style: normal;
+  font-size: 1.3vw;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.decsPart a {
+  text-decoration: none;
+}
+.descBtn {
+  height: 3.6vw;
+  width: auto;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd500;
+  font-family: "SFProText-Bold";
+  font-weight: bold;
+  font-size: 1.6vw;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin: 0 15%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+.conVideoScroll {
+  width: 32%;
+  height: 33vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+.carouselNews .owl-stage {
+  margin-left: 8vw;
+  padding: 0;
+}
+.carouselNews .owl-item {
+  height: fit-content;
+  width: 23.4vw;
+}
+.carouselNews .owl-item img {
+  width: 100% !important;
+  height: 14vw;
+  transform: scale(1) !important;
+  object-fit: contain;
+  margin: 0 !important;
+}
+.carouselNews .owl-prev,
+.carouselNews .owl-next {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carouselNews .owl-prev {
+  margin-left: 1rem;
+}
+.carouselNews .owl-next {
+  margin-right: 1rem;
+}
+.carouselNews .owl-dots {
+  display: none;
+}
+.cardPromoNews {
+  background-color: #ffffff;
+  width: 23.4vw;
+  height: 30vw !important;
+  border-radius: 0.7vw;
+  display: flex;
+  text-align: left !important;
+  justify-content: left !important;
+  margin-bottom: 1.5vw;
+  padding: 1rem !important;
+  margin-right: 3.1vw;
+  margin-top: 1.5vw;
+}
+.imagePromoNews {
+  width: 21.8vw;
+  height: 21.8vw;
+}
+.textTitlePromoNews {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8vw;
+  margin: 1.1vw 0;
+  line-height: 2.8vw;
+  letter-spacing: 0.03em;
+  color: #0055a0;
+}
+.textDescripNews {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25vw;
+  line-height: 2vw;
+  letter-spacing: 0.01em;
+  text-align: left !important;
+  color: #000000;
+  opacity: 0.6;
+  border: 0.1px solid #ffffff;
+  box-sizing: border-box;
+}
+.video-left {
+  width: 100%;
+  height: 33vw;
+  object-fit: contain;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1537px) {
+  .boxTextHomeImg {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 9vw;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mainImage1 {
+    height: 600px;
+    width: 100%;
+  }
+  .mainImage2 {
+    height: 600px;
+    width: 100%;
+    transform: scale(1.1, 1.1) translateX(10px);
+  }
+  .mainImage3 {
+    height: 600px;
+    width: 100%;
+    transform: scale(1.1, 1.1) translateX(-30px) translateY(-24px);
+  }
+  .boxContentImage {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 60px;
+    padding-top: 16px;
+  }
+  .boxContentImage1 {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 40px;
+    padding-top: 77px;
+  }
+  .textContentImageUT {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 2.5vw;
+    letter-spacing: 0.02em;
+    color: #020202;
+    margin: 0;
+  }
+  .textContentImage {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 3.3vw;
+    line-height: 4.7vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 14px;
+    color: #ffd400;
+  }
+  .textContentImageDesc {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 1.8vw;
+    line-height: 3.2vw;
+    opacity: 0.9;
+    width: 38vw;
+    margin-bottom: 30px;
+    color: #020202;
+  }
+  .buyPartsButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20.7vw;
+    height: 3.9vw;
+    background: #ffd500;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 1.6vw;
+    line-height: 1.9vw;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+  }
+  .containerHome {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+  }
+  .textHomeAbout {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 2.5vw;
+    text-align: center;
+    line-height: 3.9vw;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    margin-top: 2.4vw;
+  }
+  .imageHomeAbout {
+    width: 80%;
+    height: 80%;
+    margin-top: -36px;
+  }
+  .textHomeFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 2.5vw;
+    text-align: center;
+    line-height: 3.9vw;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    margin-top: 5.4vw;
+    margin-bottom: 3vw;
+  }
+  .imageFeaturesLeft {
+    width: 40vw;
+    height: 25vw;
+    margin-right: 1.8vw;
+  }
+  .imageFeaturesRight {
+    width: 40vw;
+    height: 25vw;
+  }
+  .contentHomeFeatures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 42vw;
+    height: 25vw;
+    margin-left: 1.8vw;
+  }
+  .contentHomeFeaturesLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 42vw;
+    height: 25vw;
+    padding-right: 3.4vw;
+  }
+  .textTitleContentFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 2.7vw;
+    line-height: 2.8vw;
+    letter-spacing: 0.03em;
+    color: #0055a0;
+    margin-bottom: 1vw;
+  }
+  .textDescContentFeatures {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 1.4vw;
+    line-height: 2.3vw;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.6;
+    border: 0.1px solid #ffffff;
+    box-sizing: border-box;
+  }
+  .checkFeaturesButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 54px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+  }
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+  .textHomeFooter {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    padding-top: 35px;
+  }
+  .iconHomeFooter {
+    margin-top: 25px;
+  }
+  .iconDownloadPS {
+    width: 225px;
+    height: 70px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+  }
+  .iconDownloadAS {
+    width: 225px;
+    height: 70px;
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .widthRow {
+    width: 103%;
+  }
+  .imgFade {
+    position: absolute;
+    top: 6.8vw;
+    z-index: 1;
+    transform: translateX(80%) translateY(-13px);
+  }
+  .imgHome {
+    transform: translateX(30%);
+  }
+  .boxTextHomeImg {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20vw;
+    left: 9vw;
+    z-index: 4;
+  }
+  .textContentImageUT {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    color: #020202;
+    margin: 0;
+  }
+  .mainImage1 {
+    height: 550px;
+    width: 100%;
+    transform: scale(1.5, 1.2) translateY(5px);
+  }
+  .mainImage2 {
+    height: 550px;
+    width: 100%;
+  }
+  .mainImage3 {
+    height: 550px;
+    width: 100%;
+    transform: scale(1.16, 1.1) translateX(-33px) translateY(-17px);
+  }
+  .boxContentImage {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 50px;
+    padding-top: 16px;
+  }
+  .boxContentImage1 {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 30px;
+    padding-top: 60px;
+  }
+  .textContentImage {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    color: #ffd400;
+  }
+  .textContentImageDesc {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 40px;
+    color: #020202;
+    opacity: 0.9;
+    width: 40vw;
+    margin-bottom: 24px;
+  }
+  .buyPartsButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 52px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+  }
+  .containerHome {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+  }
+  .textHomeAbout {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .imageHomeAbout {
+    width: 80%;
+    height: 80%;
+    margin-top: -26px;
+  }
+  .textHomeFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+  .imageFeaturesLeft {
+    width: 45%;
+    height: 45%;
+    margin-left: -95px;
+  }
+  .imageFeaturesRight {
+    width: 45%;
+    height: 45%;
+  }
+  .contentHomeFeatures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 380px;
+    height: 290px;
+    margin-left: 24px;
+  }
+  .contentHomeFeaturesLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 499px;
+    height: 290px;
+    padding-right: 24px;
+  }
+  .textTitleContentFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 28px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #0055a0;
+    margin-bottom: 12px;
+  }
+  .textDescContentFeatures {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.6;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .checkFeaturesButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 50px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+  }
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+  .textHomeFooter {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    padding-top: 35px;
+  }
+  .iconHomeFooter {
+    margin-top: 25px;
+  }
+  .iconDownloadPS {
+    width: 225px;
+    height: 70px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+  }
+  .iconDownloadAS {
+    width: 225px;
+    height: 70px;
+    margin-right: 12px;
+  }
+}

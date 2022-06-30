@@ -1,0 +1,207 @@
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .footerStyle{
+    color: white;
+    background-color: black;
+    margin-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+  .widthfooter {
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-left: auto;
+  }
+  .firstfooter {
+    margin-left: 0.5rem;
+    margin-right: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fontfooter {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .marginfooter {
+    margin-left: 1rem ;
+  }
+  .footerahref{
+    color: black !important;
+  }
+  .spanfirstfooter {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .margincolumntiga{
+    margin-left: 0rem;
+  }
+  @media screen and (max-width: 800px) {
+    .marginfooter {
+      margin-left: 1rem ;
+    }
+  }
+  .myCol {
+    width: 200px !important;
+  }
+  .downloadIcon {
+    width: 8vw;
+    height: 2.53vw;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footerStyle{
+    color: white;
+    background-color: black;
+    margin-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+  .widthfooter {
+    width: 100%;
+    margin-top: 15vh;
+    margin-left: auto;
+  }
+  .marginFooterTitle{
+    max-width: 300px;
+    margin-left: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #2d2d2d;
+  }
+  .firstfooter {
+    margin-left: 3.5rem;
+    margin-right: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fontfooter {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .marginfooter {
+    margin-left: 1rem ;
+  }
+  .downloadIcon {
+    width: 8vw;
+    height: 2.53vw;
+  }
+  .spanfirstfooter {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .footerahref{
+    color: black !important;
+  }
+  .margincolumntiga{
+    margin-left: 0rem;
+  }
+  @media screen and (max-width: 800px) {
+    .marginfooter {
+      margin-left: 1rem ;
+    }
+  }
+  .downloadIcon {
+    width: 120px;
+    height: 38px;
+  }
+}
+
+/* mobile version */
+@media (max-width: 599px) {
+  .footerStyle{
+    color: white;
+    background-color: black;
+    margin-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+  .marginFooterTitle {
+    margin-left: 10px;
+  }
+  .fontfooter {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
+  }
+  .marginfooter {
+    margin-left: 30px;
+  }
+  .fontfooterDownload {
+    font-size: 12px;
+  }
+  .defaultIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: vw-mobile(20);
+  }
+  .downloadIcon {
+    width: 140px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .spanfirstfooter {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
+
+/* tab version */
+@media (min-width: 600px) and (max-width: 1025px) {
+  .footerStyle{
+    color: white;
+    background-color: black;
+    margin-top: vw-tab(10);
+    padding-top: vw-tab(10);
+    padding-bottom: vw-tab(10);
+    font-size: vw-tab(12);
+  }
+  .widthfooter {
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-left: auto;
+  }
+  .fontfooter {
+    font-size: vw-tab(14);
+    margin-bottom: vw-tab(10);
+  }
+  .marginfooter {
+    margin-left: vw-tab(20);
+  }
+  .defaultIcon {
+    display: flex;
+    align-items: center;
+    margin-left: vw-tab(20);
+    margin-bottom: vw-tab(20);
+  }
+  .downloadIcon {
+    width: vw-tab(150);
+    height: vw-tab(50);
+  }
+  .spanfirstfooter {
+    margin-bottom: vw-tab(20);
+    font-weight: bold;
+    font-size: vw-tab(18);
+  }
+  .margincolumntiga{
+    margin-left: vw-tab(20);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .defaultIcon {
+    display: flex;
+    align-items: center;
+    margin-left: vw(20);
+    margin-bottom: vw(20);
+  }
+}

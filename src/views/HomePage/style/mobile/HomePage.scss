@@ -1,0 +1,827 @@
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .boxImage {
+    display: flex;
+    flex-direction: row;
+    height: 60vw;
+  }
+  .imgFade {
+    position: absolute;
+    top: 7.3vw;
+    left: 16.4vw;
+    z-index: 1;
+    transform: translateX(115%) translateY(-7px);
+    height: 60vw;
+  }
+  .imgHome {
+    transform: translateX(35%);
+  }
+  .boxTextHomeImg {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 21vw;
+    left: 6vw;
+    z-index: 4;
+  }
+  .textContentImageUT {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    color: #020202;
+    margin: 0;
+  }
+  .mainImage1 {
+    height: 350px;
+    width: 100%;
+    transform: scale(1.2, 1.4) translateY(28px);
+  }
+  .mainImage2 {
+    height: 350px;
+    width: 100%;
+    transform: scale(1, 1.6) translateY(41px);
+  }
+  .mainImage3 {
+    height: 350px;
+    width: 100%;
+    transform: scale(1.1, 2) translateX(-32px) translateY(-16px);
+  }
+  .boxContentImage {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 40px;
+    padding-top: 16px;
+  }
+  .boxContentImage1 {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 40px;
+    padding-top: 67px;
+  }
+  .textContentImage {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    margin-bottom: 14px;
+    width: 40vw;
+    color: #ffd400;
+  }
+  .textContentImageDesc {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #020202;
+    opacity: 0.9;
+    width: 44vw;
+    margin-bottom: 15px;
+  }
+  .buyPartsButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 7vw;
+    background: #ffd500;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+  }
+  .containerHome {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+  }
+  .textHomeAbout {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-top: 10px;
+  }
+  .imageHomeAbout {
+    width: 90%;
+    height: 80%;
+    margin-top: -22px;
+  }
+  .textHomeFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .imageFeaturesLeft {
+    width: 75%;
+    height: 75%;
+  }
+  .imageFeaturesRight {
+    width: 75%;
+    height: 75%;
+  }
+  .contentHomeFeatures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+  }
+  .contentHomeFeaturesLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+  }
+  .textTitleContentFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center !important;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
+    color: #0055a0;
+  }
+  .textDescContentFeatures {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify !important;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.6;
+    box-sizing: border-box;
+  }
+  .checkFeaturesButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    background: #ffd500;
+    border-radius: 6px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+  }
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    margin-bottom: 150px;
+    background-image: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+  }
+  .textHomeFooter {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    padding-top: 20px;
+  }
+  .iconHomeFooter {
+    margin-top: 25px;
+  }
+  .iconDownloadPS {
+    width: 139px;
+    height: 44px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+  }
+  .iconDownloadAS {
+    width: 139px;
+    height: 44px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 410px) {
+  .boxImage {
+    display: flex;
+    flex-direction: row;
+    height: 60vw;
+  }
+  .imgFade {
+    position: absolute;
+    top: 21.8vw;
+    left: 16.4vw;
+    transform: translateX(22vw) translateY(-2.9px);
+    height: 60vw;
+  }
+  .imgHome {
+    z-index: -1;
+    transform: scale(1, 1) translateX(159vw) translateY(3.34vw);
+  }
+  .boxTextHomeImg {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 32vw;
+    left: 6vw;
+  }
+  .textContentImageUT {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #020202;
+    margin: 0;
+  }
+  .textContentImageDesc {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #020202;
+    opacity: 0.9;
+    width: 45vw;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 414px) {
+  .boxImage {
+    display: flex;
+    flex-direction: row;
+    height: 60vw;
+  }
+  .imgFade {
+    position: absolute;
+    top: 21.8vw;
+    left: 16.4vw;
+    transform: translateX(22vw) translateY(-2.9px);
+    height: 60vw;
+  }
+  .imgHome {
+    z-index: -1;
+    transform: scale(1, 1) translateX(138vw) translateY(3.34vw);
+  }
+  .boxTextHomeImg {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 32vw;
+    left: 6vw;
+  }
+  .textContentImageUT {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #020202;
+    margin: 0;
+  }
+  .textContentImageDesc {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #020202;
+    opacity: 0.9;
+    width: 40vw !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media only screen and (width: 411px) {
+  .imgFade {
+    position: absolute;
+    top: 21.8vw;
+    left: 16.4vw;
+    transform: translateX(20vw) translateY(-2.9px);
+    height: 60vw;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 364px) {
+  .boxImage {
+    display: flex;
+    flex-direction: row;
+    height: 60vw;
+  }
+  .imgFade {
+    position: absolute;
+    top: 21.8vw;
+    left: 16.4vw;
+    transform: translateX(115%) translateY(9.7vw) !important;
+    height: 60vw;
+  }
+  .imgHome {
+    z-index: -1;
+    transform: scale(0.9, 0.9) translateX(186vw) translateY(3.34vw);
+  }
+  .boxTextHomeImg {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30vw;
+    left: 6vw;
+  }
+  .textContentImageUT {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #020202;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 413px) {
+  .imgFade {
+    transform: translateX(115%) translateY(13.6vw) !important;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+  .imgFade {
+    transform: translateX(115%) translateY(7.75vw) !important;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+  .boxImage {
+    display: flex;
+    flex-direction: row;
+    height: 60vw;
+  }
+  .containerHomeImg {
+    padding-top: 15vw;
+  }
+  .imgFade {
+    position: absolute;
+    top: 7.3vw;
+    left: 16.4vw;
+    z-index: 1;
+    transform: translateX(115%) translateY(52px);
+    height: 60vw;
+  }
+  @media only screen and (min-width: 376px) and (max-width: 414px) {
+    .imgFade {
+      transform: translateX(115%) translateY(7.7vw) !important;
+    }
+  }
+  .imgHome {
+    transform: translateX(35%);
+  }
+  .boxTextHomeImg {
+    top: 23vw;
+    z-index: 4;
+  }
+  .textContentImageUT {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #020202;
+    margin: 0;
+  }
+  .mainImage1 {
+    height: 300px;
+    width: 100%;
+    transform: scale(1.3, 1.5) translateY(28px);
+  }
+  .mainImage2 {
+    height: 300px;
+    width: 100%;
+    transform: scale(1, 1.8) translateY(45px);
+  }
+  .mainImage3 {
+    height: 300px;
+    width: 100%;
+    transform: scale(1.1, 2) translateX(-32px) translateY(-16px);
+  }
+  .boxContentImage {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 40px;
+    padding-top: 16px;
+  }
+  .boxContentImage1 {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 40px;
+    padding-top: 67px;
+  }
+  .textContentImage {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    width: 45vw;
+    color: #ffd400;
+  }
+  .textContentImageDesc {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #020202;
+    opacity: 0.9;
+    width: 45vw;
+    margin-bottom: 3px;
+  }
+  .buyPartsButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 7vw;
+    background: #ffd500;
+    border-radius: 6px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+  }
+  .containerHome {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+  }
+  .textHomeAbout {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-top: 10px;
+  }
+  .imageHomeAbout {
+    width: 90%;
+    height: 80%;
+    margin-top: -22px;
+  }
+  .textHomeFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .imageFeaturesLeft {
+    width: 70%;
+    height: 70%;
+  }
+  .imageFeaturesRight {
+    width: 70%;
+    height: 70%;
+  }
+  .contentHomeFeatures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+  }
+  .contentHomeFeaturesLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+  }
+  .textTitleContentFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center !important;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
+    color: #0055a0;
+  }
+  .textDescContentFeatures {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify !important;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.6;
+    box-sizing: border-box;
+    margin-bottom: -1rem;
+  }
+  .checkFeaturesButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    background: #ffd500;
+    border-radius: 6px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+  }
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    margin-bottom: 150px;
+    background-image: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+  }
+  .textHomeFooter {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    padding-top: 20px;
+  }
+  .iconHomeFooter {
+    margin-top: 25px;
+  }
+  .iconDownloadPS {
+    width: 139px;
+    height: 44px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+  }
+  .iconDownloadAS {
+    width: 139px;
+    height: 44px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (width: 320px) {
+  .boxImage {
+    display: flex;
+    flex-direction: row;
+    height: 60vw;
+  }
+  .imgFade {
+    position: absolute;
+    top: 21.8vw;
+    left: 16.4vw;
+    height: 60vw;
+  }
+  .imgHome {
+    z-index: -1;
+  }
+  .boxTextHomeImg {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 22vw;
+    left: 6vw;
+  }
+  .textContentImageUT {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #020202;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+  .containerHomeImg {
+    padding-top: 17vw;
+  }
+  .imgFade {
+    transform: translateX(115%) translateY(-5vw);
+  }
+  .imgHome {
+    transform: translateX(35%);
+  }
+  .mainImage1 {
+    height: 250px;
+    width: 100%;
+    transform: scale(1.2, 1.5) translateY(28px);
+  }
+  .mainImage2 {
+    height: 250px;
+    width: 100%;
+    transform: scale(1.2, 2) translateY(42px);
+  }
+  .mainImage3 {
+    height: 250px;
+    width: 100%;
+    transform: scale(1.1, 2) translateX(-29px) translateY(-10px);
+  }
+  .boxContentImage {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 28px;
+    padding-top: 16px;
+  }
+  .boxContentImage1 {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 28px;
+    padding-top: 55px;
+  }
+  .textContentImage {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-bottom: 6px;
+    width: 40vw;
+    color: #ffd400;
+  }
+  .textContentImageDesc {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #020202;
+    opacity: 0.9;
+    width: 45vw;
+    margin-bottom: 8px;
+  }
+  .buyPartsButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 7vw;
+    background: #ffd500;
+    border-radius: 5px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 11px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+  }
+  .containerHome {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+  }
+  .textHomeAbout {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-top: 10px;
+  }
+  .imageHomeAbout {
+    width: 90%;
+    height: 80%;
+    margin-top: -22px;
+  }
+  .textHomeFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .imageFeaturesLeft {
+    width: 70%;
+    height: 70%;
+  }
+  .imageFeaturesRight {
+    width: 70%;
+    height: 70%;
+  }
+  .contentHomeFeatures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+  }
+  .contentHomeFeaturesLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+  }
+  .textTitleContentFeatures {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center !important;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
+    color: #0055a0;
+  }
+  .textDescContentFeatures {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify !important;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.6;
+    box-sizing: border-box;
+    margin-bottom: -1rem;
+  }
+  .checkFeaturesButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    background: #ffd500;
+    border-radius: 6px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+  }
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    margin-bottom: 150px;
+    background-image: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+  }
+  .textHomeFooter {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin: 0;
+    padding-top: 20px;
+  }
+  .iconHomeFooter {
+    margin-top: 25px;
+  }
+  .iconDownloadPS {
+    width: 139px;
+    height: 44px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+  }
+  .iconDownloadAS {
+    width: 139px;
+    height: 44px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+}
